@@ -123,18 +123,4 @@ table {
   border-spacing: 0;
 }
 
-/* 以下自己增加的 css reset */
 
-a {
-  text-decoration: none;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-img {
-  display: block;
-}

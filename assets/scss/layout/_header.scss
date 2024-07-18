@@ -1,4 +1,11 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navbar {
+  padding: 52px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  a {
+    color: #d1d1d1;
+    display: block;
+  }
 }
