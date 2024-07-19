@@ -113,3 +113,45 @@ header {
     }
   }
 }
+
+main {
+  background-color: #fff;
+
+  .container {
+    display: flex;
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      width: 636px;
+      flex-wrap: wrap;
+      margin-top: 206px;
+      margin-bottom: 214px;
+
+      .card {
+        width: 306px;
+        padding: 16px;
+        margin-bottom: 24px;
+      }
+
+      h3 {
+        font-size: 20px;
+        margin-bottom: 4px;
+      }
+    }
+
+    .about-me {
+      width: 526px;
+      margin: 160px 0 160px auto;
+
+      h2 {
+        font-size: 64px;
+        margin-bottom: 36px;
+      }
+
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+}
