@@ -155,3 +155,41 @@ main {
     }
   }
 }
+
+.contact-me {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  color: #fff;
+  font-size: 64px;
+
+  .container {
+    padding: 96px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+
+    p {
+      margin-right: 16px;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+
+    li:not(:last-child) {
+      margin-right: 24px;
+    }
+
+    img {
+      width: 162px;
+    }
+  }
+}
